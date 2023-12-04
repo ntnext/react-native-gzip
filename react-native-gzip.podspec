@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "NVHTarGzipV2"
+  s.dependency 'NVHTarGzipV2', :git => 'https://github.com/ntnext/NVHTarGzipV2.git'
   # ...
   # s.dependency "..."
 end
