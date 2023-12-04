@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0635EC47F5F333A42BB3761217C3A829 /* NVHFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 024523B70D89F775B18058C12D397C68 /* NVHFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0A0E79022DB9F3D8170033449E9AAF5C /* NVHGzipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB29AA1CF1E6D40EC66AC139167333B /* NVHGzipFile.m */; };
+		0FEDA4DBF4561E803D467423066DC735 /* NVHTarGzipV2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B88C0CA52C28EF861FD8A1360C0DFB /* NVHTarGzipV2-dummy.m */; };
+		55113745E782A7B8A1E22CB0B541D05E /* NVHFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EE070102F2002B82E1A8F1027DD3C1 /* NVHFile.m */; };
+		600004CAB6196F285750476368ED3C7A /* NVHTarFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 352EB0E2AFF324F705977224A0E4084B /* NVHTarFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EBE229B4AEA953958422EC38A445CAF /* NVHTarGzip.m in Sources */ = {isa = PBXBuildFile; fileRef = D92BAF2C9FE2558FDBC02DC6FA5E8C00 /* NVHTarGzip.m */; };
+		A26F024CC39DE8AB91D8B209129BCCE7 /* NSFileManager+NVHFileSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0FD4EF77BB1ECC5E5237252422A945 /* NSFileManager+NVHFileSize.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A64281F56D4199A46AB03F7F1DD6F6EB /* NVHTarGzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 08583CF1F6DEAE8290C3389487A8D591 /* NVHTarGzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA7258137FDF6E2F01FB62684A222967 /* NSFileManager+NVHFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD59E6D5F566D989D48DBD685C4DA25 /* NSFileManager+NVHFileSize.m */; };
+		D9C09F93687096D994559C332CEA65EA /* NVHTarFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C1FFF32C71014AEB739F6EA61EB248 /* NVHTarFile.m */; };
+		DEA859C228956F2D07392456D756FB28 /* NVHProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AC510AA9567F712E5E476869B592D /* NVHProgress.m */; };
+		E35EA0CC14AC587DA38EEC5BCD7D0348 /* Pods-NVHTarGzipExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CEACEEE8E8DEB008BC103223C0E080 /* Pods-NVHTarGzipExample-dummy.m */; };
+		EB4BB07ABFE9543499832CADBAD762FA /* NVHProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 208C78F4834DF01CFC873D30C76C2CB4 /* NVHProgress.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA7F81E14D2994550DB1788448FBAEC9 /* NVHGzipFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8DCDA3F46D2AFC296F7A785E784FAF /* NVHGzipFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11E55343359ED9FD8857EC6BEA8DB165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954BBC4D2EF1D1585CD2126EA9F21D25;
+			remoteInfo = NVHTarGzipV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024523B70D89F775B18058C12D397C68 /* NVHFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHFile.h; path = Classes/NVHFile.h; sourceTree = "<group>"; };
+		08583CF1F6DEAE8290C3389487A8D591 /* NVHTarGzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHTarGzip.h; path = Classes/NVHTarGzip.h; sourceTree = "<group>"; };
+		1BD59E6D5F566D989D48DBD685C4DA25 /* NSFileManager+NVHFileSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+NVHFileSize.m"; path = "Classes/NSFileManager+NVHFileSize.m"; sourceTree = "<group>"; };
+		208C78F4834DF01CFC873D30C76C2CB4 /* NVHProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHProgress.h; path = Classes/NVHProgress.h; sourceTree = "<group>"; };
+		2F0FD4EF77BB1ECC5E5237252422A945 /* NSFileManager+NVHFileSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+NVHFileSize.h"; path = "Classes/NSFileManager+NVHFileSize.h"; sourceTree = "<group>"; };
+		352EB0E2AFF324F705977224A0E4084B /* NVHTarFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHTarFile.h; path = Classes/NVHTarFile.h; sourceTree = "<group>"; };
+		4047155362459B10AE46C714130116E6 /* NVHTarGzipV2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NVHTarGzipV2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		439E8111E0762E46F3BD665795A9E2E8 /* libPods-NVHTarGzipExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NVHTarGzipExample.a"; path = "libPods-NVHTarGzipExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B88C0CA52C28EF861FD8A1360C0DFB /* NVHTarGzipV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVHTarGzipV2-dummy.m"; sourceTree = "<group>"; };
+		589E0A42F6033FC30C0F9481B89CC3E5 /* Pods-NVHTarGzipExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NVHTarGzipExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75A84F6251CC875AD0126EFCEE3ADEE4 /* Pods-NVHTarGzipExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVHTarGzipExample.release.xcconfig"; sourceTree = "<group>"; };
+		7E8DCDA3F46D2AFC296F7A785E784FAF /* NVHGzipFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHGzipFile.h; path = Classes/NVHGzipFile.h; sourceTree = "<group>"; };
+		8110AFE2D704400908FDE10C7CB7AA25 /* Pods-NVHTarGzipExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVHTarGzipExample.debug.xcconfig"; sourceTree = "<group>"; };
+		83C1FFF32C71014AEB739F6EA61EB248 /* NVHTarFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHTarFile.m; path = Classes/NVHTarFile.m; sourceTree = "<group>"; };
+		8BB29AA1CF1E6D40EC66AC139167333B /* NVHGzipFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHGzipFile.m; path = Classes/NVHGzipFile.m; sourceTree = "<group>"; };
+		9B6AC510AA9567F712E5E476869B592D /* NVHProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHProgress.m; path = Classes/NVHProgress.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A09CB0EDD5FF207052CC47C6B67D4481 /* NVHTarGzipV2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVHTarGzipV2.xcconfig; sourceTree = "<group>"; };
+		A2C15A59785DC298BE4B0635F2B93062 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A3814E22A359EEEEDEDCBCDBC88D88A5 /* Pods-NVHTarGzipExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NVHTarGzipExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9CEACEEE8E8DEB008BC103223C0E080 /* Pods-NVHTarGzipExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NVHTarGzipExample-dummy.m"; sourceTree = "<group>"; };
+		B2A5056E2557103CFA64B4A05D92B1A8 /* NVHTarGzipV2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVHTarGzipV2-prefix.pch"; sourceTree = "<group>"; };
+		D73081DC0DCBA1C25AB3A4DCA126771B /* libNVHTarGzipV2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNVHTarGzipV2.a; path = libNVHTarGzipV2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92BAF2C9FE2558FDBC02DC6FA5E8C00 /* NVHTarGzip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHTarGzip.m; path = Classes/NVHTarGzip.m; sourceTree = "<group>"; };
+		DEC6634F8AD8C9F04B7CF6E3C86157FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E8EE070102F2002B82E1A8F1027DD3C1 /* NVHFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHFile.m; path = Classes/NVHFile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94306641DB4909619B0735A1499AAB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7B7B4EBC92A0965B1C3C73EDEAE0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FBCC8A27CBE451413ECEC496CD3A51 /* NVHTarGzipV2 */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FD4EF77BB1ECC5E5237252422A945 /* NSFileManager+NVHFileSize.h */,
+				1BD59E6D5F566D989D48DBD685C4DA25 /* NSFileManager+NVHFileSize.m */,
+				024523B70D89F775B18058C12D397C68 /* NVHFile.h */,
+				E8EE070102F2002B82E1A8F1027DD3C1 /* NVHFile.m */,
+				7E8DCDA3F46D2AFC296F7A785E784FAF /* NVHGzipFile.h */,
+				8BB29AA1CF1E6D40EC66AC139167333B /* NVHGzipFile.m */,
+				208C78F4834DF01CFC873D30C76C2CB4 /* NVHProgress.h */,
+				9B6AC510AA9567F712E5E476869B592D /* NVHProgress.m */,
+				352EB0E2AFF324F705977224A0E4084B /* NVHTarFile.h */,
+				83C1FFF32C71014AEB739F6EA61EB248 /* NVHTarFile.m */,
+				08583CF1F6DEAE8290C3389487A8D591 /* NVHTarGzip.h */,
+				D92BAF2C9FE2558FDBC02DC6FA5E8C00 /* NVHTarGzip.m */,
+				DA90A4C320F8E54369E8794C6FBE3E8A /* Pod */,
+				956039280BF27E1743B232A24273364B /* Support Files */,
+			);
+			name = NVHTarGzipV2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		436A61D685C8E0E2326EB9F7F2A2E496 /* Pods-NVHTarGzipExample */ = {
+			isa = PBXGroup;
+			children = (
+				589E0A42F6033FC30C0F9481B89CC3E5 /* Pods-NVHTarGzipExample-acknowledgements.markdown */,
+				A3814E22A359EEEEDEDCBCDBC88D88A5 /* Pods-NVHTarGzipExample-acknowledgements.plist */,
+				A9CEACEEE8E8DEB008BC103223C0E080 /* Pods-NVHTarGzipExample-dummy.m */,
+				8110AFE2D704400908FDE10C7CB7AA25 /* Pods-NVHTarGzipExample.debug.xcconfig */,
+				75A84F6251CC875AD0126EFCEE3ADEE4 /* Pods-NVHTarGzipExample.release.xcconfig */,
+			);
+			name = "Pods-NVHTarGzipExample";
+			path = "Target Support Files/Pods-NVHTarGzipExample";
+			sourceTree = "<group>";
+		};
+		956039280BF27E1743B232A24273364B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A09CB0EDD5FF207052CC47C6B67D4481 /* NVHTarGzipV2.xcconfig */,
+				51B88C0CA52C28EF861FD8A1360C0DFB /* NVHTarGzipV2-dummy.m */,
+				B2A5056E2557103CFA64B4A05D92B1A8 /* NVHTarGzipV2-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NVHTarGzipV2";
+			sourceTree = "<group>";
+		};
+		ACFCEF4C2CC369A6F7A3A70185CBEF18 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				436A61D685C8E0E2326EB9F7F2A2E496 /* Pods-NVHTarGzipExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C6EBADAC962659E6A251A87C3C1FFFB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D73081DC0DCBA1C25AB3A4DCA126771B /* libNVHTarGzipV2.a */,
+				439E8111E0762E46F3BD665795A9E2E8 /* libPods-NVHTarGzipExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F2EB8E6FBB5928A6B14F742F37E0A527 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				C6EBADAC962659E6A251A87C3C1FFFB2 /* Products */,
+				ACFCEF4C2CC369A6F7A3A70185CBEF18 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA90A4C320F8E54369E8794C6FBE3E8A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DEC6634F8AD8C9F04B7CF6E3C86157FC /* LICENSE */,
+				4047155362459B10AE46C714130116E6 /* NVHTarGzipV2.podspec */,
+				A2C15A59785DC298BE4B0635F2B93062 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F2EB8E6FBB5928A6B14F742F37E0A527 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03FBCC8A27CBE451413ECEC496CD3A51 /* NVHTarGzipV2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		57B11B1C0E6E1B0E1B55D9EA5CDE3DBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A701B318A7EDF2C08FD770CFEA5EB236 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26F024CC39DE8AB91D8B209129BCCE7 /* NSFileManager+NVHFileSize.h in Headers */,
+				0635EC47F5F333A42BB3761217C3A829 /* NVHFile.h in Headers */,
+				FA7F81E14D2994550DB1788448FBAEC9 /* NVHGzipFile.h in Headers */,
+				EB4BB07ABFE9543499832CADBAD762FA /* NVHProgress.h in Headers */,
+				600004CAB6196F285750476368ED3C7A /* NVHTarFile.h in Headers */,
+				A64281F56D4199A46AB03F7F1DD6F6EB /* NVHTarGzip.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		954BBC4D2EF1D1585CD2126EA9F21D25 /* NVHTarGzipV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63769350D0F2B4AF6B908EE0A0646B69 /* Build configuration list for PBXNativeTarget "NVHTarGzipV2" */;
+			buildPhases = (
+				A701B318A7EDF2C08FD770CFEA5EB236 /* Headers */,
+				A14B1F6937234E1A6C3531420F044A3C /* Sources */,
+				94306641DB4909619B0735A1499AAB0E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVHTarGzipV2;
+			productName = NVHTarGzipV2;
+			productReference = D73081DC0DCBA1C25AB3A4DCA126771B /* libNVHTarGzipV2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FAD60E84DB4D40BEBD36EDAA9F22D856 /* Pods-NVHTarGzipExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737EB693B55156EFFA789F19ACBA4C9D /* Build configuration list for PBXNativeTarget "Pods-NVHTarGzipExample" */;
+			buildPhases = (
+				57B11B1C0E6E1B0E1B55D9EA5CDE3DBF /* Headers */,
+				343DA22CC595F6E3D96925F27399AB0D /* Sources */,
+				CC7B7B4EBC92A0965B1C3C73EDEAE0D8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96F1D2CDC357D90777E5F4AD5273CAE2 /* PBXTargetDependency */,
+			);
+			name = "Pods-NVHTarGzipExample";
+			productName = "Pods-NVHTarGzipExample";
+			productReference = 439E8111E0762E46F3BD665795A9E2E8 /* libPods-NVHTarGzipExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C6EBADAC962659E6A251A87C3C1FFFB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				954BBC4D2EF1D1585CD2126EA9F21D25 /* NVHTarGzipV2 */,
+				FAD60E84DB4D40BEBD36EDAA9F22D856 /* Pods-NVHTarGzipExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		343DA22CC595F6E3D96925F27399AB0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35EA0CC14AC587DA38EEC5BCD7D0348 /* Pods-NVHTarGzipExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14B1F6937234E1A6C3531420F044A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7258137FDF6E2F01FB62684A222967 /* NSFileManager+NVHFileSize.m in Sources */,
+				55113745E782A7B8A1E22CB0B541D05E /* NVHFile.m in Sources */,
+				0A0E79022DB9F3D8170033449E9AAF5C /* NVHGzipFile.m in Sources */,
+				DEA859C228956F2D07392456D756FB28 /* NVHProgress.m in Sources */,
+				D9C09F93687096D994559C332CEA65EA /* NVHTarFile.m in Sources */,
+				9EBE229B4AEA953958422EC38A445CAF /* NVHTarGzip.m in Sources */,
+				0FEDA4DBF4561E803D467423066DC735 /* NVHTarGzipV2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96F1D2CDC357D90777E5F4AD5273CAE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVHTarGzipV2;
+			target = 954BBC4D2EF1D1585CD2126EA9F21D25 /* NVHTarGzipV2 */;
+			targetProxy = 11E55343359ED9FD8857EC6BEA8DB165 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F77195C9C762D343D2CD060BD6B5061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09CB0EDD5FF207052CC47C6B67D4481 /* NVHTarGzipV2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NVHTarGzipV2/NVHTarGzipV2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NVHTarGzipV2;
+				PRODUCT_NAME = NVHTarGzipV2;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		530CA417CF5579B31B3AE64AEA5B2841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09CB0EDD5FF207052CC47C6B67D4481 /* NVHTarGzipV2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NVHTarGzipV2/NVHTarGzipV2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NVHTarGzipV2;
+				PRODUCT_NAME = NVHTarGzipV2;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B16D24BFF10E605F8AA3F21543D1D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8110AFE2D704400908FDE10C7CB7AA25 /* Pods-NVHTarGzipExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BE1A5F6370F8B894762724E95E3F9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A84F6251CC875AD0126EFCEE3ADEE4 /* Pods-NVHTarGzipExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63769350D0F2B4AF6B908EE0A0646B69 /* Build configuration list for PBXNativeTarget "NVHTarGzipV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530CA417CF5579B31B3AE64AEA5B2841 /* Debug */,
+				0F77195C9C762D343D2CD060BD6B5061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737EB693B55156EFFA789F19ACBA4C9D /* Build configuration list for PBXNativeTarget "Pods-NVHTarGzipExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B16D24BFF10E605F8AA3F21543D1D35 /* Debug */,
+				7BE1A5F6370F8B894762724E95E3F9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

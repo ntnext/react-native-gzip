@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency 'NVHTarGzipV2', :podspec => 'https://github.com/ntnext/NVHTarGzipV2/blob/master/NVHTarGzipV2.podspec'
+  s.dependency 'NVHTarGzipV2', :path './react-native-gzip'
   # ...
   # s.dependency "..."
 end

@@ -1,0 +1,5 @@
+
+
+target 'NVHTarGzipExample' do
+  pod "NVHTarGzipV2", :path => "../"
+end
