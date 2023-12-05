@@ -22,7 +22,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency 'NVHTarGzipV2', :path './react-native-gzip'
   # ...
   # s.dependency "..."
 end
